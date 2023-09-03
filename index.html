@@ -56,6 +56,7 @@
     <section id="about">
         <p class="section__text__p1">Get to know me more</p>
         <h1 class="title">About Me</h1>
+        <div class="about-containers">
         <div class="section__pic-container">
             <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
         </div>
@@ -76,6 +77,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione earum suscipit in libero perspiciatis quidem quibusdam impedit quis recusandae unde modi expedita ipsum, cumque dicta. Totam velit eveniet quaerat laborum, enim iusto, quam voluptate est, optio alias ut at dolore! Doloremque laborum possimus, excepturi id repudiandae odit vel soluta eveniet.</p>
             </div>
         </div>
+    </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
@@ -83,7 +85,7 @@
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title">Web Development</h2>
                     <div class="article-container">
                         <article>
@@ -116,7 +118,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title">Apps Development</h2>
                     <div class="article-container">
                         <article>
@@ -142,9 +144,77 @@
                         </article>
                     </div>
                 </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me!</h1>
+        <div class="contact-info-upper-container">
+            <div class="details-container">
+
+                <div class="contact-info-container">
+                    <img src=".//assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                    <p><a href="mailto:nabiliqram13@gmail.com">nabiliqram13@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src=".//assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/nabil-iqram-26aa76287/">LinkedIn</a></p>
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Nabil Iqram. All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
